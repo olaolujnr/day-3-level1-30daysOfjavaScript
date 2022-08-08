@@ -64,3 +64,39 @@ let length1 = word1.length
 let word2 = "jargon"
 let length2 =word2.length
 console.log(length1>length2)
+
+/*Use the Date object to do the following activities
+
+What is the year today?
+What is the month today as a number?
+What is the date today?
+What is the day today as a number?
+What is the hours now?
+What is the minutes now?
+Find out the numbers of seconds elapsed from January 1, 1970 to now. */
+
+const now = new Date()
+console.log(now)
+
+
+const years = now.getFullYear()
+console.log(year)
+
+
+const month = now.getMonth()
+console.log(month)
+
+const  today = now.getDate()
+console.log(today)
+
+const day =now.getDay()
+console.log(day) 
+
+const hour = now.getHours()
+console.log(hour)
+
+const minutes = now.getMinutes()
+console.log(minutes)
+
+const seconds =now.getTime()
+console.log(seconds)
